@@ -7,9 +7,6 @@
 body{
     background-image: url(imagens/noite.jpg);
     background-size:cover;
-    background-repeat:no-repeat;
-    width: 100vw;
-    height: 100vh;
 }
 
 header{
@@ -20,7 +17,7 @@ header{
 
 nav{
     width: 100vw;
-    height: 8em;
+    height: 15vh;
     background-color: aliceblue;
     display: flex;
     justify-content: space-between;
@@ -31,6 +28,7 @@ h2{
     -webkit-background-clip: text;
     background-image: url(imagens/noite.jpg);
     background-size: cover;
+    background-repeat:repeat;
     font-size: 6em;
     margin-left: 1em;
 }
@@ -89,6 +87,12 @@ main{
     padding: 1rem;
     margin: 1rem;
     line-height: 2em;
+}
+
+.art{
+    color: ivory;
+    margin: 5rem 0rem 3rem 3rem;
+    font-size: 4em;
 }
 
 footer{
