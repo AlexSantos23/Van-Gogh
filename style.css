@@ -14,13 +14,13 @@ body{
 
 header{
     width: 100vw;
-    height: 40vh;
+    height: 75vh;
 }
 
 
 nav{
     width: 100vw;
-    height: 30%;
+    height: 8em;
     background-color: aliceblue;
     display: flex;
     justify-content: space-between;
@@ -29,10 +29,10 @@ nav{
 h2{
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-    -webkit-text-stroke: 1px black;
     background-image: url(imagens/noite.jpg);
     background-size: cover;
     font-size: 5em;
+    margin-left: 1em;
 }
 
 .topics{
@@ -46,6 +46,28 @@ h2{
 
 .title{
     color: ivory;
+    margin: 2em 0em 1em 3em;
+    font-size: 2em;
+}
+
+.about{
+    width: 100vw;
+    height: 30em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.vincent{
+    margin: 2em 2em 1em 2em;
+    
+}
+
+.biography{
+    font-size: 1.5em;
+    background-color: white;
+    padding: 1em;
+    
 }
 
 main{
