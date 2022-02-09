@@ -1,7 +1,7 @@
 *{margin:0;
     padding:0;
     box-sizing: border-box;
-    font-family: 'Quintessential', cursive;
+    font-family: 'Dancing Script', cursive;
 }
 
 body{
@@ -31,7 +31,7 @@ h2{
     -webkit-background-clip: text;
     background-image: url(imagens/noite.jpg);
     background-size: cover;
-    font-size: 5em;
+    font-size: 6em;
     margin-left: 1em;
 }
 
@@ -46,34 +46,49 @@ h2{
 
 .title{
     color: ivory;
-    margin: 2em 0em 1em 3em;
-    font-size: 2em;
+    margin: 3rem;
+    font-size: 4em;
 }
 
 .about{
     width: 100vw;
-    height: 30em;
+    height: 30rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .vincent{
-    margin: 2em 2em 1em 2em;
+    margin: 2rem 2rem 2rem 2rem;
     
 }
 
-.biography{
+.introduction{
     font-size: 1.5em;
     background-color: white;
-    padding: 1em;
-    
+    padding: 1rem;
+    margin: 1rem;
+    line-height: 2em;
 }
 
 main{
     width: 100vw;
     height: 70vh;
 
+}
+
+.biography{ 
+    color: ivory;
+    margin: 5rem 0rem 3rem 3rem;
+    font-size: 4em;
+}
+
+.bio{
+    font-size: 1.5em;
+    background-color: white;
+    padding: 1rem;
+    margin: 1rem;
+    line-height: 2em;
 }
 
 footer{
