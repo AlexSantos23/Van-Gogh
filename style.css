@@ -1,0 +1,60 @@
+*{margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Quintessential', cursive;
+}
+
+body{
+    background-image: url(imagens/noite.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
+header{
+    width: 100vw;
+    height: 40vh;
+}
+
+
+nav{
+    width: 100vw;
+    height: 30%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+h2{
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 1px black;
+    background-image: url(imagens/noite.jpg);
+    background-size: cover;
+    font-size: 5em;
+}
+
+.topics{
+    list-style: none;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    font-size: 2em;
+    width: 20em;
+}
+
+.title{
+    color: ivory;
+}
+
+main{
+    width: 100vw;
+    height: 70vh;
+
+}
+
+footer{
+    width: 100vw;
+    height: 10vh;
+}
